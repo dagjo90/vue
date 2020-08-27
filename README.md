@@ -1,5 +1,5 @@
 # vuetest
-Need this api on localhost:8080 :See [here](https://github.com/alexziskind1/rpsapi).
+Need this api on localhost:8080 : See [here](https://github.com/alexziskind1/rpsapi).
  
 ## Project setup
 ```
