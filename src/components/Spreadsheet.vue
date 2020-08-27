@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'Spreadsheat',
+  name: 'Spreadsheet',
    mounted () {
         var spreadsheet = this.$refs.spreadsheet.kendoWidget();
         spreadsheet.element.css('height', '800px');

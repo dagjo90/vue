@@ -1,18 +1,18 @@
 <template>
   <div class="about">
-<Spreadsheat/>
+<Spreadsheet/>
 
   </div>
 </template>
 
 <script>
 
-import Spreadsheat from '@/components/Spreadsheat.vue'
+import Spreadsheet from '@/components/Spreadsheet.vue'
 
 export default {
-    name: 'SpreadsheatPage',
+    name: 'SpreadsheetPage',
   components: {
-    Spreadsheat
+    Spreadsheet
   }
 
 }

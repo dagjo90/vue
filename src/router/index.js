@@ -11,12 +11,12 @@ Vue.use(VueRouter)
     component: GridPage
   },
   {
-    path: '/spreadsheat',
-    name: 'SpreadsheatPage',
+    path: '/spreadsheet',
+    name: 'SpreadsheetPage',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/SpreadsheatPage.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/SpreadsheetPage.vue')
   },
   {
     path: '/graph',
@@ -25,7 +25,16 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/GraphPage.vue')
+  },
+  {
+    path: '/schedule',
+    name: 'SchedulePage',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/SchedulePage.vue')
   }
+
 ]
 
 const router = new VueRouter({

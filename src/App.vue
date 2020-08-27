@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Grid</router-link> |
       <router-link to="/spreadsheat">SpreadSheat</router-link> |
-      <router-link to="/graph">Graph</router-link>
+      <router-link to="/graph">Graph</router-link> |
+      <router-link to="/schedule">Schedule</router-link>
 
     </div>
     <router-view/>
