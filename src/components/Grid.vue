@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button v-on:click='test()'>test</button>
+ <    <button v-on:click='test()'>test</button>
       
     <kendo-datasource ref="datasource1"
                         :transport-read-url="'http://localhost:8080/api/backlog'"
@@ -68,12 +68,5 @@ export default {
   methods: {
     test(){
       axios.get('http://localhost:8080/api/backlog').then(reponse => this.posts = reponse.data)
-      //console.log('test');
-    }
-  }
-
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+ponent only -->
 
