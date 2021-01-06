@@ -15,7 +15,7 @@
     "@progress/kendo-spreadsheet-vue-wrapper": "^2020.2.826",
     "@progress/kendo-theme-default": "^4.21.0",
     "@progress/kendo-ui": "^2020.2.617",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
